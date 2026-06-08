@@ -1,0 +1,28 @@
+# Python caches and test artifacts
+__pycache__/
+*.py[cod]
+.pycache/
+.pycache_check/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.streamlit_home/
+.coverage
+htmlcov/
+*.log
+
+# Local environments and secrets
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# OS and editor artifacts
+.DS_Store
+.idea/
+.vscode/
+
+# Runtime data
+data/feedback.csv
